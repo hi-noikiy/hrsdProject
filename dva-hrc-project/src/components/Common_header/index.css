@@ -1,0 +1,52 @@
+.common_header {
+  height: 58px;
+  background: #ccc;
+  transition: 0.5s;
+}
+.common_header ul {
+  float: right;
+}
+.common_header li {
+  float: left;
+  cursor: pointer;
+}
+.index_header {
+  composes: common_header;
+  font-size: 16px;
+  line-height: 58px;
+  background: #ccc;
+}
+.index_header .header_l {
+  float: left;
+  position: relative;
+}
+.index_header .header_l img {
+  height: 26px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.index_header .header_l ul {
+  padding-left: 142px;
+}
+.index_header .header_l li {
+  margin: 0 20px;
+}
+.index_header .header_r {
+  float: right;
+}
+.index_header .header_r li {
+  float: left;
+}
+.index_header .header_r span {
+  margin: 0 12px;
+}
+.login_header {
+  composes: common_header;
+  background: skyblue;
+}
+.register_header {
+  composes: common_header;
+  background: red;
+}

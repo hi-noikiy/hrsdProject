@@ -1,0 +1,61 @@
+// 组合公共类composes:
+.common_header{
+    height: 58px;
+    background: #ccc;
+    transition: 0.5s;
+    ul{
+        float: right;
+    }
+    li{
+        float: left;
+        cursor: pointer;
+    }
+}
+
+//主页
+.index_header{
+    composes: common_header;
+
+    font-size: 16px;
+    line-height: 58px;
+    background: #ccc;
+    .header_l{
+        float: left;
+        position: relative;
+        
+        img{
+            height: 26px;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+        }
+        ul{
+            padding-left: 142px;
+        }
+        li{
+            margin: 0 20px;
+        }
+    }
+    .header_r{
+        float: right;
+        li{
+            float: left;
+        }
+        span{
+            margin: 0 12px;
+        }
+    }
+}
+
+//登录
+.login_header{
+    composes: common_header;
+    background: skyblue;
+}
+
+//注册
+.register_header{
+    composes: common_header;
+    background: red;
+}
