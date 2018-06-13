@@ -4,52 +4,6 @@ import FontAwesome from 'react-fontawesome';
 import { Table, Icon, Divider } from 'antd';
 import styles from './index.less';
 
-const columns = [{
-    title: 'Name',
-    dataIndex: 'name',
-    key: 'name',
-    render: text => <a href="javascript:;">{text}</a>,
-  }, {
-    title: 'Age',
-    dataIndex: 'age',
-    key: 'age',
-  }, {
-    title: 'Address',
-    dataIndex: 'address',
-    key: 'address',
-  }, {
-    title: 'Action',
-    key: 'action',
-    render: (text, record) => (
-      <span>
-        <a href="javascript:;">Action 一 {record.name}</a>
-        <Divider type="vertical" />
-        <a href="javascript:;">Delete</a>
-        <Divider type="vertical" />
-        <a href="javascript:;" className="ant-dropdown-link">
-          More actions <Icon type="down" />
-        </a>
-      </span>
-    ),
-  }];
-  
-  const data = [{
-    key: '1',
-    name: 'John Brown',
-    age: 32,
-    address: 'New York No. 1 Lake Park',
-  }, {
-    key: '2',
-    name: 'Jim Green',
-    age: 42,
-    address: 'London No. 1 Lake Park',
-  }, {
-    key: '3',
-    name: 'Joe Black',
-    age: 32,
-    address: 'Sidney No. 1 Lake Park',
-  }];
-
 const Tab_t_list = ({ tab_t_arr, active, tab_tit_onclick }) => {
     return(
         <ul className='clearfix' >
@@ -135,11 +89,31 @@ class Index_main extends Component {
                         </li>
                     </ul>
                     <div className={styles.tab_box}  >
-                        <div className={`${styles.tab_box_t} clearfix`}  >
+                        <div className={`${styles.tab_box_t} clearfix`} >
                             <Tab_t_list {...this.state} tab_tit_onclick={this.tab_tit_onclick} />
                             <div className={styles.tab_box_r} >
-                                <Table columns={columns} dataSource={data} pagination={false} />
+                                
                             </div>
+                        </div>
+                        <div className={`${styles.tab_box_b} clearfix`} >
+                            <table>
+                                <tr>
+                                    <th><a href="javascript:;" >交易对</a></th>
+                                    <th><a href="javascript:;" >价格</a></th>
+                                    <th><a href="javascript:;" >24H涨跌</a></th>
+                                    <th><a href="javascript:;" >24H最高价</a></th>
+                                    <th><a href="javascript:;" >24H最低价</a></th>
+                                    <th><a href="javascript:;" >24H成交额</a></th>
+                                </tr>
+                                <tr>
+                                    <td>January</td>
+                                    <td>$100</td>
+                                    <td>$100</td>
+                                    <td>$100</td>
+                                    <td>$100</td>
+                                    <td>$100</td>
+                                </tr>
+                            </table>
                         </div>
                     </div>
                 </div>
