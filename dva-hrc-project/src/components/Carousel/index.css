@@ -1,3 +1,21 @@
+.caro_img {
+  width: 1200px;
+  height: 600px;
+  margin: 0 auto;
+}
 .caro {
-  background: ##3a35bf;
+  background: #3a35bf;
+}
+.caro img {
+  width: 1920px;
+  height: 600px;
+}
+.caro .caro_img1 {
+  width: 1200px;
+  height: 600px;
+  margin: 0 auto;
+  background: red;
+}
+.caro .caro_img2 {
+  background: yellowgreen;
 }

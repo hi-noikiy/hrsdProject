@@ -1,24 +1,18 @@
 // 组合公共类composes:
 .common_header{
     height: 58px;
-    background: #ccc;
     transition: 0.5s;
-    ul{
-        float: right;
-    }
+    overflow: hidden;
+    font-size: 16px;
+    line-height: 58px;
+    background: #ccc;
+    
     li{
         float: left;
         cursor: pointer;
     }
-}
 
-//主页
-.index_header{
-    composes: common_header;
-
-    font-size: 16px;
-    line-height: 58px;
-    background: #ccc;
+    
     .header_l{
         float: left;
         position: relative;
@@ -47,6 +41,11 @@
             margin: 0 12px;
         }
     }
+}
+
+//主页
+.index_header{
+    composes: common_header;
 }
 
 //登录
