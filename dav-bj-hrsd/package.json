@@ -13,7 +13,8 @@
     "react": "^16.2.0",
     "react-bootstrap": "^0.32.1",
     "react-dom": "^16.2.0",
-    "react-fontawesome": "^1.6.1"
+    "react-fontawesome": "^1.6.1",
+    "react-router-config": "^1.0.0-beta.4"
   },
   "devDependencies": {
     "babel-plugin-dva-hmr": "^0.3.2",
