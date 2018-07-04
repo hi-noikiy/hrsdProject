@@ -1,0 +1,20 @@
+.head {
+  color: #9bacbd;
+  font-size: 2.75rem;
+  text-align: center;
+  border-bottom: 1px solid #495057;
+  line-height: 66px;
+  padding-top: 45px;
+  background: #252732;
+}
+.head a {
+  margin: 0 35px;
+  display: inline-block;
+}
+.head a:focus {
+  color: #fff;
+}
+.head .active {
+  border-bottom: 4px solid #17a7f3;
+  color: #fff;
+}

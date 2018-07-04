@@ -1,0 +1,36 @@
+import React, { Component } from 'react';
+import { connect } from 'dva';
+import { Layout } from 'antd';
+import FontAwesome from 'react-fontawesome';
+import styles from './index.less'
+
+const { Header } = Layout;
+
+
+
+@connect(({  }) => ({
+    
+}))
+class Ctoc_head extends Component {
+    render() {
+        return (
+            <Header className={styles.head} >
+                <a className={styles.logo} href="javascript:;" >
+                    <img src={require("../../assets/logo.gif")} />
+                </a>
+                <ul className={styles.link_list} >
+                    <li className={styles.list_head} >
+                        <span>ETH/BTC</span>
+                        <FontAwesome name="caret-down" style={{ fontSsize: '16px' }}/>
+                    </li>
+                    <li className={styles.list} >
+                        <p>最新价</p>
+                        <p>0.073950</p>
+                    </li>
+                </ul>
+            </Header>
+        );
+    }
+}
+
+export default Ctoc_head;

@@ -1,0 +1,33 @@
+.head{
+    background-color: #2b2d3b;
+    color: #d8dfe6;
+    height: 42px;
+    line-height: 42px;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(21,22,25,.3);
+    box-shadow: 0 2px 5px 0 rgba(21,22,25,.3);
+    padding: 0 15px;
+    a{
+        float: left;
+    }
+}
+.logo{
+    img{
+        width: 120px;
+    }
+}
+//ul
+.link_list{
+    li{
+        float: left;
+        font-size: 12px;
+    }
+    float: left;
+    .list_head{
+        font-size: 16px;
+    }
+    .list{
+        p{
+            line-height: 15px;
+        }
+    }
+}

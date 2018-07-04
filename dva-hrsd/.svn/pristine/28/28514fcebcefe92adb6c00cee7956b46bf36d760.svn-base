@@ -1,0 +1,21 @@
+.loginReg_main {
+  background: #252732;
+}
+.loginReg_main .head {
+  color: #9bacbd;
+  font-size: 1.75rem;
+  text-align: center;
+  border-bottom: 1px solid #495057;
+  line-height: 66px;
+  padding-top: 45px;
+}
+.loginReg_main .head a {
+  margin: 0 35px;
+  display: inline-block;
+}
+.loginReg_main .head a:focus {
+  color: #9bacbd;
+}
+.loginReg_main .head .active {
+  border-bottom: 4px solid #17a7f3;
+}

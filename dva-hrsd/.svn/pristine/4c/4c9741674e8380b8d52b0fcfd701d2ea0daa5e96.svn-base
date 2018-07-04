@@ -1,0 +1,51 @@
+.Login_main{
+    background: #252732;
+    text-align: center;
+    .item{
+        width: 420px;
+        margin: 0 auto;
+        input{
+            width: 100%;
+            background: none;
+            line-height: 1.125rem;
+            padding: 8px 0;
+            font-size: 1rem;
+            background: none;
+            outline: none;
+            border: none;
+            border-bottom: 1px solid #495057;
+            font-size: 18px;
+            margin-bottom: 30px;
+            color: #ccc !important;
+            text-shadow: 0px 0px 0px #495057;
+            -webkit-text-fill-color: transparent;
+        }
+        input:focus{
+            transition: 0.5s;
+            border-bottom: 1px solid #17a7f3;
+        }
+        .user{
+            margin-top: 50px;
+        }
+        .forget_password{
+            text-align: right;
+            margin: 30px 0 60px;
+            a{
+                font-size: 18px;
+                color: #17a7f3;
+            }
+        }
+        .btn{
+            padding-bottom: 60px;
+            a{
+                font-size: 18px;
+                color: #17a7f3; 
+                border: 1px solid #17a7f3;
+                border-radius: 5px;
+                line-height: 42px;
+                display: inline-block;
+                width: 100%;
+            }
+        }
+    }
+}

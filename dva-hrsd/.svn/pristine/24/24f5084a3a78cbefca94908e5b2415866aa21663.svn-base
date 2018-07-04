@@ -1,0 +1,21 @@
+import React, { Component } from 'react'
+import { connect } from 'dva';
+import { Link, Route } from 'dva/router';
+import LoginReg_head from '../LoginReg_head'
+import styles from './index.less'
+
+class Login_main extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {  }
+    }
+    render() { 
+        return (  
+            <div className={styles.Login_main}>
+                <Route path="/login" component={LoginReg_head} />
+            </div>
+        )
+    }
+}
+ 
+export default Login_main;

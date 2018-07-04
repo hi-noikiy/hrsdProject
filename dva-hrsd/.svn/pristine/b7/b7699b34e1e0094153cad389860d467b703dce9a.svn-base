@@ -1,0 +1,28 @@
+.loginReg_main{
+    background: #252732;
+    //头部
+    .head{
+        color: #9bacbd;
+        font-size: 1.75rem;
+        text-align: center;
+        border-bottom: 1px solid #495057;
+        line-height: 66px;
+        padding-top: 45px;
+        a{
+            margin: 0 35px;
+            display: inline-block;
+            &:focus{
+                color: #9bacbd;
+            }
+        }
+        
+        .active{
+            border-bottom: 4px solid #17a7f3;
+        }
+    }
+
+    //主体
+    .form{
+
+    }
+}
