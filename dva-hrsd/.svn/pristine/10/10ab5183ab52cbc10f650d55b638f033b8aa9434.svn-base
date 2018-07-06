@@ -1,0 +1,70 @@
+//容器
+.content_box{
+    background: #252732;
+    padding: 0 8px;
+    width: 280px;
+    margin-left: 3px;
+    //颜色
+    .up{
+        .price_main{
+            em,span{
+                color: #ff486a;
+            }
+        }
+        .middle_r{
+            i{
+                color: #ff486a;
+            }
+        }
+    }
+    .down{
+        .price_main{
+            em,span{
+                color: #00bc9b;
+            }
+        }
+        .middle_r{
+            i{
+                color: #00bc9b;
+            }
+        }
+    }
+    
+    table{
+        width: 100%;
+        tr{
+            display: flex;
+            justify-content: space-between;
+            -webkit-display: flex;
+            -webkit-justify-content: space-between;
+        }
+    }
+
+    .middle{
+        line-height: 36px;
+        background: #292d39;
+        
+        span{
+            vertical-align: middle;
+        }
+        em{
+            vertical-align: middle;
+            color: #758696;
+        }
+        i{
+            vertical-align: middle;
+            margin-top: 3px;
+        }
+        .price_main{
+            display: inline-block;
+            em{
+                font-size: 16px;
+                font-weight: 700;
+            }
+            span{
+                font-size: 14px;
+                display: inline-block;
+            }
+        }
+    }
+}

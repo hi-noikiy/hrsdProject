@@ -1,0 +1,10 @@
+html, body, :global(#root) {
+    height: 100%;
+}
+  
+:global{
+    .conta_box{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}

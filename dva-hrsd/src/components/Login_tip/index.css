@@ -1,0 +1,8 @@
+.Login_tip {
+  margin: 0 auto;
+  text-align: center;
+  position: absolute;
+  top: 32%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

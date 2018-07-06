@@ -1,0 +1,43 @@
+import { get_login_status } from '../services/api'
+export default {
+
+    namespace: 'user',
+  
+    state: {
+        login_status: false,
+        incor_password: true
+    },
+  
+    subscriptions: {
+        setup({  dispatch, history }, done) {
+            history.listen((location, action) => {
+
+            })
+        }
+    },
+  
+    effects: {
+        //获取数据
+        *fetch({ payload }, { call, put }) {
+            const data = yield call(get_login_status);            //获取数据
+            yield put({ type: 'save', payload: { data } });  //保存数据。payload附带数据
+        },
+    },
+  
+    reducers: {
+        incor_password (state) {
+            return {
+                ...state,
+                incor_password: true,
+            }
+        },
+        save (state, { payload }) {
+            const { data: { data: { data: { login_status } } } } = payload;
+            return {
+                ...state,
+                login_status: login_status,
+                incor_password: login_status,
+            }
+        }
+    },
+};

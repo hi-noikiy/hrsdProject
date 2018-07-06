@@ -1,0 +1,4 @@
+:global .User .ant-spin-nested-loading,
+:global .User .ant-spin-container {
+  height: 100%;
+}

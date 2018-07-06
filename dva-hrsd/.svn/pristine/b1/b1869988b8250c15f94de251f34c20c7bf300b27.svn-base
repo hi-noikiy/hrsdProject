@@ -1,0 +1,60 @@
+import React, { Component } from 'react'
+import { connect } from 'dva';
+import { Link, Route } from 'dva/router';
+import LoginReg_head from '../LoginReg_head'
+import styles from './index.less'
+
+@connect(({ user }) => ({
+    user
+  }))
+class Login_main extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {  
+            
+        }
+    }
+
+    _toPath = () => {
+        const { history, user: { login_status }, dispatch } = this.props;
+        dispatch({ type: 'user/incor_password' });
+        dispatch({ type: 'user/fetch' });
+        console.log(login_status)
+        if(login_status) {
+            history.push('/user');
+        }
+    }
+
+    render() { 
+        const {  user: { login_status, incor_password }, dispatch } = this.props;
+        // console.log(login_status);
+        console.log(login_status, incor_password);
+        return (  
+            <div className={styles.Login_main}>
+                <Route path="/login" component={LoginReg_head} />
+
+                <div className={styles.item}>
+                    <div className={styles.user}>
+                        <input type="text" placeholder="账号" />
+                    </div>
+                    <div>
+                        <input type="text" placeholder="密码" />
+                    </div>
+                    <p className={styles.forget_password}>
+                        <Link to="/forget_password">忘记密码？</Link>
+                    </p>
+                    <div className={styles.btn}>
+                        <a href="javascript:;"
+                            onClick={() => {
+                                this._toPath();
+                            }}
+                        >登录</a>
+                        {incor_password != true ? <span style={{ color: 'red' }}>用户名或密码错误</span> : ''}
+                    </div>
+                </div>
+            </div>
+        )
+    }
+}
+ 
+export default Login_main;

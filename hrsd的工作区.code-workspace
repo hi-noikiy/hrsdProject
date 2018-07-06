@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "dva-hrsd"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}

@@ -1,0 +1,23 @@
+import React, { Component } from 'react';
+import { connect } from 'dva';
+import { Layout } from 'antd';
+import styles from './index.less'
+
+const { Header, Footer, Sider, Content } = Layout;
+
+
+
+@connect(({  }) => ({
+    
+}))
+class User extends Component {
+    render() {
+        return (
+            <div className={styles.User} >
+                User
+            </div>
+        );
+    }
+}
+
+export default User;
