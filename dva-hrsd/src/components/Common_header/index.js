@@ -18,7 +18,6 @@ class Ul_l_list extends Component {
                 activeNum = e.activeNum;
             }
         });
-        console.log(activeNum);
         
         return ( 
             <ul>

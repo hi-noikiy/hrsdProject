@@ -3,7 +3,6 @@ import styles from './index.less'
 
 //表格头
 const Thead = ({ data=[] }) => {
-    console.log(data);
     return (
         <thead className={styles.thead}>
             <tr>

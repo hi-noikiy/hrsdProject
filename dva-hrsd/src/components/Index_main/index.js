@@ -3,7 +3,6 @@ import { connect } from 'dva';
 import { Link } from 'dva/router';
 import FontAwesome from 'react-fontawesome';
 import { Spin } from 'antd';
-import 'antd/dist/antd.css';
 import styles from './index.less';
 
 

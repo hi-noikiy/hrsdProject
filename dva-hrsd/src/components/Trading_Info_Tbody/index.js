@@ -17,7 +17,6 @@ const Icon = ( {up_or_down} ) => {
 
 //表格内容
  const Tbody = ({ data }) => {
-     console.log(data);
     return (
         <tbody className={styles.tbody}>
             {
