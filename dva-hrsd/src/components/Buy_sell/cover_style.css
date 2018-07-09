@@ -1,0 +1,30 @@
+:global .ctoc_buy_sell .ant-tabs-ink-bar {
+  background: none;
+}
+:global .ctoc_buy_sell .ant-tabs-bar {
+  border: 0;
+  margin: 0;
+}
+:global .ctoc_buy_sell .ant-tabs-bar a {
+  color: #758696;
+  margin-right: 20px;
+}
+:global .ctoc_buy_sell .ant-slider-mark-text-active,
+:global .ctoc_buy_sell .ant-slider-mark-text {
+  color: #d8dfe6;
+}
+:global .ctoc_buy_sell .ant-slider-rail {
+  background: #343b4c;
+}
+:global .ctoc_buy_sell .ant-tabs-nav-container {
+  line-height: 0.7;
+}
+:global .ctoc_buy_sell .ant-tabs-extra-content {
+  line-height: 32px;
+}
+:global .ctoc_buy_sell .ant-slider-with-marks {
+  margin: 0;
+}
+:global .ctoc_buy_sell .ant-tabs-nav .ant-tabs-tab-active {
+  background: #252732;
+}

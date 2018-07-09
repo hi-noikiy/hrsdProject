@@ -1,7 +1,10 @@
 .ctoc {
-  background: red;
+  height: 100%;
 }
-.ctoc .content 颜色 .up {
+.ctoc .content {
+  height: 100%;
+}
+.ctoc .content .up {
   color: #ff486a;
 }
 .ctoc .content .down {
@@ -95,4 +98,7 @@
 }
 .ctoc .content_right .records .records_right {
   float: left;
+}
+.ctoc .content_right .table_body {
+  height: 280px;
 }

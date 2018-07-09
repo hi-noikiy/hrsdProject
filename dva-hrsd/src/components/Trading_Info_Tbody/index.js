@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import FontAwesome from 'react-fontawesome';
 import styles from './index.less'
+import './cover_style.less';
 
 // 上涨、下跌图标
 const Icon = ( {up_or_down} ) => {

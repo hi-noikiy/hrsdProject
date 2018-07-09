@@ -1,5 +1,4 @@
 :global .ctoc .scroll {
-  height: 280px;
   overflow: auto;
   padding-right: 8px;
 }

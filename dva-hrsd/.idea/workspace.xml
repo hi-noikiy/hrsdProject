@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="b060cd87-a665-4fca-bd46-913ccee70a97" name="默认的" comment="">
+    <list default="true" readonly="true" id="b060cd87-a665-4fca-bd46-913ccee70a97" name="默认的" comment="币币交易...................">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Common_header/index.js" afterPath="$PROJECT_DIR$/src/components/Common_header/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Index_main/index.js" afterPath="$PROJECT_DIR$/src/components/Index_main/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Trading_Info/index.js" afterPath="$PROJECT_DIR$/src/components/Trading_Info/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Trading_Info_Tbody/index.js" afterPath="$PROJECT_DIR$/src/components/Trading_Info_Tbody/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Trading_Info_Tbody/index.less" afterPath="$PROJECT_DIR$/src/components/Trading_Info_Tbody/index.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Trading_Info_Thead/index.js" afterPath="$PROJECT_DIR$/src/components/Trading_Info_Thead/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/layout/Ctoc/cover_style.css" afterPath="$PROJECT_DIR$/src/layout/Ctoc/cover_style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/layout/Ctoc/cover_style.less" afterPath="$PROJECT_DIR$/src/layout/Ctoc/cover_style.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/layout/Ctoc/index.css" afterPath="$PROJECT_DIR$/src/layout/Ctoc/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/layout/Ctoc/index.js" afterPath="$PROJECT_DIR$/src/layout/Ctoc/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/layout/Ctoc/index.less" afterPath="$PROJECT_DIR$/src/layout/Ctoc/index.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yarn.lock" afterPath="$PROJECT_DIR$/yarn.lock" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -232,7 +242,7 @@
       <workItem from="1530104247043" duration="1279000" />
       <workItem from="1530535649058" duration="667000" />
       <workItem from="1530621931941" duration="1907000" />
-      <workItem from="1530841135809" duration="1321000" />
+      <workItem from="1530841135809" duration="1422000" />
     </task>
     <task id="LOCAL-00001" summary="...................">
       <created>1529668813210</created>
@@ -315,10 +325,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7638000" />
+    <option name="totallyTimeSpent" value="7739000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />

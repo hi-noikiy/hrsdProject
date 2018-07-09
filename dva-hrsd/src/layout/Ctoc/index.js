@@ -6,6 +6,7 @@ import Ctoc_head from '../../components/Ctoc_head'
 import Tbody from '../../components/Trading_Info_Tbody'
 import Thead from '../../components/Trading_Info_Thead'
 import Trading_Info from '../../components/Trading_Info'
+import Buy_sell from '../../components/Buy_sell'
 import styles from './index.less'
 import './cover_style.less'
 
@@ -232,6 +233,9 @@ class Ctoc extends Component {
                         show: true
                     }
                 ],
+            },
+            Buy_sell: {
+                
             }
         }
     }
@@ -284,6 +288,10 @@ class Ctoc extends Component {
                                 {/* 最近交易end */}
 
                             </div>
+
+                            {/* 买入/卖出 */}
+                            <Buy_sell />
+                            
                         </div>
                         {/* 右边end */}
                     </div>  

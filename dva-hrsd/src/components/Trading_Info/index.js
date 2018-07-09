@@ -3,7 +3,6 @@ import FontAwesome from 'react-fontawesome';
 import Tbody from '../../components/Trading_Info_Tbody'
 import Thead from '../../components/Trading_Info_Thead'
 import styles from './index.less'
-import './cover_style.less';
 
 //中间
 const Middle = ({ average_price, up_or_down, exchange, amplitude }) => {
@@ -33,6 +32,10 @@ const Middle = ({ average_price, up_or_down, exchange, amplitude }) => {
 
 
 class Trading_Info extends Component {
+
+    componentDidMount() {
+        // console.log(document.getElementsByClassName(`${styles.table_body}`))
+    }
     render() { 
         const { middle, buy_data, sell_data, title, thead_data } = this.props;
         return (
