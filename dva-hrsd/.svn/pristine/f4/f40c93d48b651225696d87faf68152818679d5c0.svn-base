@@ -1,16 +1,15 @@
 .ctoc_buy_sell{
     margin-top: 3px;
     box-sizing: border-box;
-    width: 566px;
     .form_container{
         display: flex;
         justify-content: space-between;
         -webkit-display: flex;
         -webkit-justify-content: space-between;
-        
         background: #252732;
         .form_item{
             // width: 50%;
+            // float: left;
             padding: 0 19px;
             flex: 1;
             &:nth-child(1){

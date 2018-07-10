@@ -48,7 +48,7 @@ class Trading_Info extends Component {
                         <Thead data={thead_data} />
                     </table>
                 </div>
-                <div className={`ctoc_right_table_body scroll ${styles.overflow}`}>
+                <div className={`${styles.table_body} scroll`}>
                     <table>
                         <Tbody data={buy_data} />
                     </table>

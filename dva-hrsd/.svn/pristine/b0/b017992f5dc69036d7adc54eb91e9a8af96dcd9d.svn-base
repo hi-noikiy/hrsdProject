@@ -99,3 +99,6 @@
 .ctoc .content_right .records .records_right {
   float: left;
 }
+.ctoc .content_right .table_body {
+  height: 280px;
+}

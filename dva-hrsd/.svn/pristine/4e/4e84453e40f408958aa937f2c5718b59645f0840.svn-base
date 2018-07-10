@@ -28,6 +28,3 @@
 :global .ctoc_buy_sell .ant-tabs-nav .ant-tabs-tab-active {
   background: #252732;
 }
-:global .ctoc_buy_sell .ant-tabs-nav .ant-tabs-tab {
-  color: #1890ff;
-}

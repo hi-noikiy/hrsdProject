@@ -4,6 +4,9 @@
   width: 280px;
   margin-left: 3px;
 }
+.content_box .overflow {
+  overflow: inherit;
+}
 .content_box .up .price_main em,
 .content_box .up .price_main span {
   color: #ff486a;

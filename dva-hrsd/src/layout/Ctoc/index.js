@@ -2,13 +2,13 @@ import React, { Component } from 'react';
 import { connect } from 'dva';
 import { Layout } from 'antd';
 import FontAwesome from 'react-fontawesome';
-import Ctoc_head from '../../components/Ctoc_head'
-import Tbody from '../../components/Trading_Info_Tbody'
-import Thead from '../../components/Trading_Info_Thead'
-import Trading_Info from '../../components/Trading_Info'
-import Buy_sell from '../../components/Buy_sell'
-import styles from './index.less'
-import './cover_style.less'
+import Ctoc_head from '../../components/Ctoc_head';
+import Tbody from '../../components/Trading_Info_Tbody';
+import Thead from '../../components/Trading_Info_Thead';
+import Trading_Info from '../../components/Trading_Info';
+import Buy_sell from '../../components/Buy_sell';
+import styles from './index.less';
+import './cover_style.less';
 
 const { Header, Footer, Sider, Content } = Layout;
 
@@ -34,14 +34,228 @@ class Ctoc extends Component {
                         quantity: 0.13054610,
                         money: 0.1186015,
                         up_or_down: 0,
-                        show: true
                     },
                     {
                         price: 0.071943,
                         quantity: 0.1106010,
                         money: 0.1186014,
                         up_or_down: 0,
-                        show: true
+                    },
+                    {
+                        price: 0.071942,
+                        quantity: 0.13010,
+                        money: 0.1186013,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.0719,
+                        quantity: 0.33064610,
+                        money: 0.1186012,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.07244,
+                        quantity: 0.33044610,
+                        money: 0.1186011,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.1943,
+                        quantity: 0.93064610,
+                        money: 0.1186010,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.071943,
+                        quantity: 0.1106010,
+                        money: 0.1186014,
+                        up_or_down: 0,
+                    },
+                    {
+                        price: 0.071942,
+                        quantity: 0.13010,
+                        money: 0.1186013,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.0719,
+                        quantity: 0.33064610,
+                        money: 0.1186012,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.07244,
+                        quantity: 0.33044610,
+                        money: 0.1186011,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.1943,
+                        quantity: 0.93064610,
+                        money: 0.1186010,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.071943,
+                        quantity: 0.1106010,
+                        money: 0.1186014,
+                        up_or_down: 0,
+                    },
+                    {
+                        price: 0.071942,
+                        quantity: 0.13010,
+                        money: 0.1186013,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.0719,
+                        quantity: 0.33064610,
+                        money: 0.1186012,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.07244,
+                        quantity: 0.33044610,
+                        money: 0.1186011,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.1943,
+                        quantity: 0.93064610,
+                        money: 0.1186010,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.071943,
+                        quantity: 0.1106010,
+                        money: 0.1186014,
+                        up_or_down: 0,
+                    },
+                    {
+                        price: 0.071942,
+                        quantity: 0.13010,
+                        money: 0.1186013,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.0719,
+                        quantity: 0.33064610,
+                        money: 0.1186012,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.07244,
+                        quantity: 0.33044610,
+                        money: 0.1186011,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.1943,
+                        quantity: 0.93064610,
+                        money: 0.1186010,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.071943,
+                        quantity: 0.1106010,
+                        money: 0.1186014,
+                        up_or_down: 0,
+                    },
+                    {
+                        price: 0.071942,
+                        quantity: 0.13010,
+                        money: 0.1186013,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.0719,
+                        quantity: 0.33064610,
+                        money: 0.1186012,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.07244,
+                        quantity: 0.33044610,
+                        money: 0.1186011,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.1943,
+                        quantity: 0.93064610,
+                        money: 0.1186010,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.071943,
+                        quantity: 0.1106010,
+                        money: 0.1186014,
+                        up_or_down: 0,
+                    },
+                    {
+                        price: 0.071942,
+                        quantity: 0.13010,
+                        money: 0.1186013,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.0719,
+                        quantity: 0.33064610,
+                        money: 0.1186012,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.07244,
+                        quantity: 0.33044610,
+                        money: 0.1186011,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.1943,
+                        quantity: 0.93064610,
+                        money: 0.1186010,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.1943,
+                        quantity: 0.93064610,
+                        money: 0.1186010,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.071943,
+                        quantity: 0.1106010,
+                        money: 0.1186014,
+                        up_or_down: 0,
+                    },
+                    {
+                        price: 0.071942,
+                        quantity: 0.13010,
+                        money: 0.1186013,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.0719,
+                        quantity: 0.33064610,
+                        money: 0.1186012,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.07244,
+                        quantity: 0.33044610,
+                        money: 0.1186011,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.1943,
+                        quantity: 0.93064610,
+                        money: 0.1186010,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.071943,
+                        quantity: 0.1106010,
+                        money: 0.1186014,
+                        up_or_down: 0,
                     },
                     {
                         price: 0.071942,
@@ -73,37 +287,253 @@ class Ctoc extends Component {
                         price: 0.071944,
                         quantity: 0.13054610,
                         money: 0.1186015,
-                        up_or_down: 1
+                        up_or_down: 0,
                     },
                     {
                         price: 0.071943,
                         quantity: 0.1106010,
                         money: 0.1186014,
-                        up_or_down: 1
+                        up_or_down: 0,
                     },
                     {
                         price: 0.071942,
                         quantity: 0.13010,
                         money: 0.1186013,
-                        up_or_down: 1
+                        up_or_down: 0
                     },
                     {
                         price: 0.0719,
                         quantity: 0.33064610,
                         money: 0.1186012,
-                        up_or_down: 1
+                        up_or_down: 0
                     },
                     {
                         price: 0.07244,
                         quantity: 0.33044610,
                         money: 0.1186011,
-                        up_or_down: 1
+                        up_or_down: 0
                     },
                     {
                         price: 0.1943,
                         quantity: 0.93064610,
                         money: 0.1186010,
-                        up_or_down: 1
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.071943,
+                        quantity: 0.1106010,
+                        money: 0.1186014,
+                        up_or_down: 0,
+                    },
+                    {
+                        price: 0.071942,
+                        quantity: 0.13010,
+                        money: 0.1186013,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.0719,
+                        quantity: 0.33064610,
+                        money: 0.1186012,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.07244,
+                        quantity: 0.33044610,
+                        money: 0.1186011,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.1943,
+                        quantity: 0.93064610,
+                        money: 0.1186010,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.071943,
+                        quantity: 0.1106010,
+                        money: 0.1186014,
+                        up_or_down: 0,
+                    },
+                    {
+                        price: 0.071942,
+                        quantity: 0.13010,
+                        money: 0.1186013,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.0719,
+                        quantity: 0.33064610,
+                        money: 0.1186012,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.07244,
+                        quantity: 0.33044610,
+                        money: 0.1186011,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.1943,
+                        quantity: 0.93064610,
+                        money: 0.1186010,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.071943,
+                        quantity: 0.1106010,
+                        money: 0.1186014,
+                        up_or_down: 0,
+                    },
+                    {
+                        price: 0.071942,
+                        quantity: 0.13010,
+                        money: 0.1186013,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.0719,
+                        quantity: 0.33064610,
+                        money: 0.1186012,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.07244,
+                        quantity: 0.33044610,
+                        money: 0.1186011,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.1943,
+                        quantity: 0.93064610,
+                        money: 0.1186010,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.071943,
+                        quantity: 0.1106010,
+                        money: 0.1186014,
+                        up_or_down: 0,
+                    },
+                    {
+                        price: 0.071942,
+                        quantity: 0.13010,
+                        money: 0.1186013,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.0719,
+                        quantity: 0.33064610,
+                        money: 0.1186012,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.07244,
+                        quantity: 0.33044610,
+                        money: 0.1186011,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.1943,
+                        quantity: 0.93064610,
+                        money: 0.1186010,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.071943,
+                        quantity: 0.1106010,
+                        money: 0.1186014,
+                        up_or_down: 0,
+                    },
+                    {
+                        price: 0.071942,
+                        quantity: 0.13010,
+                        money: 0.1186013,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.0719,
+                        quantity: 0.33064610,
+                        money: 0.1186012,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.07244,
+                        quantity: 0.33044610,
+                        money: 0.1186011,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.1943,
+                        quantity: 0.93064610,
+                        money: 0.1186010,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.1943,
+                        quantity: 0.93064610,
+                        money: 0.1186010,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.071943,
+                        quantity: 0.1106010,
+                        money: 0.1186014,
+                        up_or_down: 0,
+                    },
+                    {
+                        price: 0.071942,
+                        quantity: 0.13010,
+                        money: 0.1186013,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.0719,
+                        quantity: 0.33064610,
+                        money: 0.1186012,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.07244,
+                        quantity: 0.33044610,
+                        money: 0.1186011,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.1943,
+                        quantity: 0.93064610,
+                        money: 0.1186010,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.071943,
+                        quantity: 0.1106010,
+                        money: 0.1186014,
+                        up_or_down: 0,
+                    },
+                    {
+                        price: 0.071942,
+                        quantity: 0.13010,
+                        money: 0.1186013,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.0719,
+                        quantity: 0.33064610,
+                        money: 0.1186012,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.07244,
+                        quantity: 0.33044610,
+                        money: 0.1186011,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.1943,
+                        quantity: 0.93064610,
+                        money: 0.1186010,
+                        up_or_down: 0
                     }
                 ],
                 middle: {
@@ -231,6 +661,321 @@ class Ctoc extends Component {
                         money: 0.1186010,
                         up_or_down: 0,
                         show: true
+                    },
+                    {
+                        price: 0.071943,
+                        quantity: 0.1106010,
+                        money: 0.1186014,
+                        up_or_down: 1,
+                        show: true
+                    },
+                    {
+                        price: 0.071942,
+                        quantity: 0.13010,
+                        money: 0.1186013,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.0719,
+                        quantity: 0.33064610,
+                        money: 0.1186012,
+                        up_or_down: 0,
+                        show: true
+                    },
+                    {
+                        price: 0.07244,
+                        quantity: 0.33044610,
+                        money: 0.1186011,
+                        up_or_down: 1
+                    },
+                    {
+                        price: 0.1943,
+                        quantity: 0.93064610,
+                        money: 0.1186010,
+                        up_or_down: 0,
+                        show: true
+                    },
+                    {
+                        price: 0.071944,
+                        quantity: 0.13054610,
+                        money: 0.1186015,
+                        up_or_down: 0,
+                    },
+                    {
+                        price: 0.071943,
+                        quantity: 0.1106010,
+                        money: 0.1186014,
+                        up_or_down: 1,
+                        show: true
+                    },
+                    {
+                        price: 0.071942,
+                        quantity: 0.13010,
+                        money: 0.1186013,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.0719,
+                        quantity: 0.33064610,
+                        money: 0.1186012,
+                        up_or_down: 0,
+                        show: true
+                    },
+                    {
+                        price: 0.07244,
+                        quantity: 0.33044610,
+                        money: 0.1186011,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.1943,
+                        quantity: 0.93064610,
+                        money: 0.1186010,
+                        up_or_down: 0,
+                        show: true
+                    },
+                    {
+                        price: 0.071943,
+                        quantity: 0.1106010,
+                        money: 0.1186014,
+                        up_or_down: 1,
+                        show: true
+                    },
+                    {
+                        price: 0.071942,
+                        quantity: 0.13010,
+                        money: 0.1186013,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.0719,
+                        quantity: 0.33064610,
+                        money: 0.1186012,
+                        up_or_down: 0,
+                        show: true
+                    },
+                    {
+                        price: 0.07244,
+                        quantity: 0.33044610,
+                        money: 0.1186011,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.1943,
+                        quantity: 0.93064610,
+                        money: 0.1186010,
+                        up_or_down: 0,
+                        show: true
+                    },
+                    {
+                        price: 0.071943,
+                        quantity: 0.1106010,
+                        money: 0.1186014,
+                        up_or_down: 1,
+                        show: true
+                    },
+                    {
+                        price: 0.071942,
+                        quantity: 0.13010,
+                        money: 0.1186013,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.0719,
+                        quantity: 0.33064610,
+                        money: 0.1186012,
+                        up_or_down: 0,
+                        show: true
+                    },
+                    {
+                        price: 0.07244,
+                        quantity: 0.33044610,
+                        money: 0.1186011,
+                        up_or_down: 1
+                    },
+                    {
+                        price: 0.1943,
+                        quantity: 0.93064610,
+                        money: 0.1186010,
+                        up_or_down: 0,
+                        show: true
+                    },
+                    {
+                        price: 0.071944,
+                        quantity: 0.13054610,
+                        money: 0.1186015,
+                        up_or_down: 0,
+                    },
+                    {
+                        price: 0.071943,
+                        quantity: 0.1106010,
+                        money: 0.1186014,
+                        up_or_down: 1,
+                        show: true
+                    },
+                    {
+                        price: 0.071942,
+                        quantity: 0.13010,
+                        money: 0.1186013,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.0719,
+                        quantity: 0.33064610,
+                        money: 0.1186012,
+                        up_or_down: 0,
+                        show: true
+                    },
+                    {
+                        price: 0.07244,
+                        quantity: 0.33044610,
+                        money: 0.1186011,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.1943,
+                        quantity: 0.93064610,
+                        money: 0.1186010,
+                        up_or_down: 0,
+                        show: true
+                    },
+                    {
+                        price: 0.071943,
+                        quantity: 0.1106010,
+                        money: 0.1186014,
+                        up_or_down: 1,
+                        show: true
+                    },
+                    {
+                        price: 0.071942,
+                        quantity: 0.13010,
+                        money: 0.1186013,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.0719,
+                        quantity: 0.33064610,
+                        money: 0.1186012,
+                        up_or_down: 0,
+                        show: true
+                    },
+                    {
+                        price: 0.07244,
+                        quantity: 0.33044610,
+                        money: 0.1186011,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.1943,
+                        quantity: 0.93064610,
+                        money: 0.1186010,
+                        up_or_down: 0,
+                        show: true
+                    },
+                    {
+                        price: 0.071943,
+                        quantity: 0.1106010,
+                        money: 0.1186014,
+                        up_or_down: 1,
+                        show: true
+                    },
+                    {
+                        price: 0.071942,
+                        quantity: 0.13010,
+                        money: 0.1186013,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.0719,
+                        quantity: 0.33064610,
+                        money: 0.1186012,
+                        up_or_down: 0,
+                        show: true
+                    },
+                    {
+                        price: 0.07244,
+                        quantity: 0.33044610,
+                        money: 0.1186011,
+                        up_or_down: 1
+                    },
+                    {
+                        price: 0.1943,
+                        quantity: 0.93064610,
+                        money: 0.1186010,
+                        up_or_down: 0,
+                        show: true
+                    },
+                    {
+                        price: 0.071944,
+                        quantity: 0.13054610,
+                        money: 0.1186015,
+                        up_or_down: 0,
+                    },
+                    {
+                        price: 0.071943,
+                        quantity: 0.1106010,
+                        money: 0.1186014,
+                        up_or_down: 1,
+                        show: true
+                    },
+                    {
+                        price: 0.071942,
+                        quantity: 0.13010,
+                        money: 0.1186013,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.0719,
+                        quantity: 0.33064610,
+                        money: 0.1186012,
+                        up_or_down: 0,
+                        show: true
+                    },
+                    {
+                        price: 0.07244,
+                        quantity: 0.33044610,
+                        money: 0.1186011,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.1943,
+                        quantity: 0.93064610,
+                        money: 0.1186010,
+                        up_or_down: 0,
+                        show: true
+                    },
+                    {
+                        price: 0.071943,
+                        quantity: 0.1106010,
+                        money: 0.1186014,
+                        up_or_down: 1,
+                        show: true
+                    },
+                    {
+                        price: 0.071942,
+                        quantity: 0.13010,
+                        money: 0.1186013,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.0719,
+                        quantity: 0.33064610,
+                        money: 0.1186012,
+                        up_or_down: 0,
+                        show: true
+                    },
+                    {
+                        price: 0.07244,
+                        quantity: 0.33044610,
+                        money: 0.1186011,
+                        up_or_down: 0
+                    },
+                    {
+                        price: 0.1943,
+                        quantity: 0.93064610,
+                        money: 0.1186010,
+                        up_or_down: 0,
+                        show: true
                     }
                 ],
             },
@@ -239,9 +984,37 @@ class Ctoc extends Component {
             }
         }
     }
+
+
+    //计算委托列表、最近交易 需要渲染数据的数量
+    _new_listArr = ( arr ) => {
+        let num = this._tab_body_height() / 20 ;
+        arr.length = parseInt((num - 1) / 2);
+        return arr;
+    }
+
+    //计算body的高度
+    _tab_body_height = () => {
+        let h = document.documentElement.offsetHeight || document.body.offsetHeight;
+        let t_body_height = h - 357;
+        return t_body_height;
+    }
+    componentDidMount() {
+        const t_bodys = document.getElementsByClassName('ctoc_right_table_body');
+        let h = this._tab_body_height();
+        for (let i = 0; i < t_bodys.length; i++) {
+            t_bodys[i].style.height = h + 'px';
+        }
+    }
+
     render() {
         const { buy_sell_data, recent_data } = this.state;
-        console.log(recent_data.thead_data);
+        const obj = {
+            ...buy_sell_data,
+            buy_data: this._new_listArr(buy_sell_data.buy_data),
+            sell_data: this._new_listArr(buy_sell_data.sell_data),
+        }
+        
         return (
             <div className={`${styles.ctoc} ctoc`} >
                 <Layout>
@@ -262,7 +1035,7 @@ class Ctoc extends Component {
 
                                 {/* 委托列表 */}
                                 <div className={styles.records_left}>
-                                    <Trading_Info {...buy_sell_data} />
+                                    <Trading_Info {...obj} />
                                 </div>
                                 
                                 {/* 最近交易 */}
@@ -278,7 +1051,7 @@ class Ctoc extends Component {
                                             </table>
                                         </div>
 
-                                        <div className={`${styles.table_body} scroll`}>
+                                        <div className="ctoc_right_table_body scroll">
                                             <table>
                                                 <Tbody data={recent_data.list} />
                                             </table>

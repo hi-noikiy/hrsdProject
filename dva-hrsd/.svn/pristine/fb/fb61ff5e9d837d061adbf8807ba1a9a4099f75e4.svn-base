@@ -32,8 +32,5 @@
         .ant-tabs-nav .ant-tabs-tab-active{
             background: #252732;
         }
-        .ant-tabs-nav .ant-tabs-tab{
-            color: #1890ff;
-        }
     }
 }

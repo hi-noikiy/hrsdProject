@@ -1,7 +1,6 @@
 .ctoc_buy_sell {
   margin-top: 3px;
   box-sizing: border-box;
-  width: 566px;
 }
 .ctoc_buy_sell .form_container {
   display: flex;

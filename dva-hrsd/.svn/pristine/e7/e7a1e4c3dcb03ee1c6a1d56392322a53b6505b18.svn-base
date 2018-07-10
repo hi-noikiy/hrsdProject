@@ -1,0 +1,32 @@
+.tbody{
+    
+    //颜色
+    .up{
+        color: #ff486a;
+    }
+    .down{
+        color: #00bc9b;
+    }
+    tr{
+        display: flex;
+        justify-content: space-between;
+        -webkit-display: flex;
+        -webkit-justify-content: space-between;
+    }
+    td{
+        flex: 1;
+        cursor:pointer;
+        span{
+            vertical-align: middle;
+        }
+        &:nth-child(1){
+            text-align: left;
+        }
+        &:nth-child(2){
+            text-align: center;
+        }
+        &:nth-child(3){
+            text-align: right;
+        }
+    }
+}

@@ -126,6 +126,8 @@
             
         }
         
-        
+        .table_body{
+            height: 280px;
+        }
     }
 }
