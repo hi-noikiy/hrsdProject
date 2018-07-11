@@ -14,12 +14,12 @@ const app = dva({
 app.use(createLoading());
 
 // 3. Model
-// app.model(require('./models/common_header').default);
-// app.model(require('./models/index_tab').default);
-// app.model(require('./models/Floa_window').default);
-// app.model(require('./models/LoginReg_main').default);
-// app.model(require('./models/user').default);
-// app.model(require('./models/ctoc').default);
+app.model(require('./models/common_header').default);
+app.model(require('./models/index_tab').default);
+app.model(require('./models/Floa_window').default);
+app.model(require('./models/LoginReg_main').default);
+app.model(require('./models/user').default);
+app.model(require('./models/ctoc').default);
 
 // 4. Router
 app.router(require('./router').default);

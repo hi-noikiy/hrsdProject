@@ -1,0 +1,39 @@
+:global{
+    .ctoc_buy_sell{
+        .ant-tabs-ink-bar{
+            background: none;
+        }
+        .ant-tabs-bar{
+            border: 0;
+            margin: 0;
+            a{
+                color: #758696;
+                margin-right: 20px;
+            }
+        }
+        .ant-slider-mark-text-active,.ant-slider-mark-text{
+            color: #d8dfe6;
+        }
+        .ant-slider-rail{
+            background: #343b4c;
+        }
+        .ant-tabs-nav-container{
+            line-height: 0.7;
+        }
+        .ant-tabs-extra-content{
+            line-height: 32px;
+        }
+        .ant-input-sm{
+            
+        }
+        .ant-slider-with-marks{
+            margin: 0;
+        }
+        .ant-tabs-nav .ant-tabs-tab-active{
+            background: #252732;
+        }
+        .ant-tabs-nav .ant-tabs-tab{
+            color: #1890ff;
+        }
+    }
+}

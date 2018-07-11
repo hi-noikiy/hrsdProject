@@ -3,7 +3,6 @@
 }
 .ctoc .content {
   height: 100%;
-  position: relative;
 }
 .ctoc .content .up {
   color: #ff486a;
@@ -13,17 +12,12 @@
 }
 .ctoc .content_left {
   float: left;
-  width: 100%;
-  padding-right: 566px;
 }
 .ctoc .content_right {
   background: #2c3141;
   float: right;
   font-size: 12px;
   color: #d8dfe6;
-  position: absolute;
-  top: 0;
-  right: 0;
 }
 .ctoc .content_right .records {
   overflow: hidden;

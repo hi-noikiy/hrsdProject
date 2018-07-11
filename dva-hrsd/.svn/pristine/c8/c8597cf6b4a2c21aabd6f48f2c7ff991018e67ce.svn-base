@@ -2,7 +2,6 @@
     height: 100%;
     .content{
         height: 100%;
-        position: relative;
         //颜色
         .up{
             color: #ff486a;
@@ -13,17 +12,12 @@
     }
     .content_left{
         float: left;
-        width: 100%;
-        padding-right: 566px;
     }
     .content_right{
         background: #2c3141;
         float: right;
         font-size: 12px;
         color: #d8dfe6;
-        position: absolute;
-        top: 0;
-        right: 0;
 
         //交易委托
         .records{

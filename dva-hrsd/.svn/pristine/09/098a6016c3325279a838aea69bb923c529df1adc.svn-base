@@ -7,7 +7,6 @@ import Tbody from '../../components/Trading_Info_Tbody';
 import Thead from '../../components/Trading_Info_Thead';
 import Trading_Info from '../../components/Trading_Info';
 import Buy_sell from '../../components/Buy_sell';
-import My_tabs from '../../components/My_Tabs';
 import styles from './index.less';
 import './cover_style.less';
 
@@ -990,8 +989,7 @@ class Ctoc extends Component {
     //计算委托列表、最近交易 需要渲染数据的数量
     _new_listArr = ( arr ) => {
         let num = this._tab_body_height() / 20 ;
-        console.log(this._tab_body_height());
-        arr.length = parseInt((num - 0) / 2);
+        arr.length = parseInt((num - 1) / 2);
         return arr;
     }
 
@@ -999,27 +997,13 @@ class Ctoc extends Component {
     _tab_body_height = () => {
         let h = document.documentElement.offsetHeight || document.body.offsetHeight;
         let t_body_height = h - 357;
-        if(t_body_height < 280) {
-            t_body_height = 280;
-        }
         return t_body_height;
     }
     componentDidMount() {
         const t_bodys = document.getElementsByClassName('ctoc_right_table_body');
-        const ctoc_box = document.getElementsByClassName('ctoc')[0];
-        let w = document.documentElement.offsetWidth || document.body.offsetWidth;
         let h = this._tab_body_height();
-        
-        //委托列表、最近交易 tbody高度
         for (let i = 0; i < t_bodys.length; i++) {
             t_bodys[i].style.height = h + 'px';
-        }
-        
-        //窗口变化
-        window.onresize = function () {
-            w = document.documentElement.offsetWidth || document.body.offsetWidth;
-            ctoc_box.style.width = w + 'px';
-            console.log(123);
         }
     }
 
@@ -1035,12 +1019,14 @@ class Ctoc extends Component {
             <div className={`${styles.ctoc} ctoc`} >
                 <Layout>
                     <Ctoc_head />
-                    <Content className={styles.content}>
+                    <div className={styles.content}>
                         <div className={styles.content_left}>
-                            <div style={{height: '300px'}}>
+                            <div>
                                 top
                             </div>
-                            <My_tabs />
+                            <div>
+                                bottom
+                            </div>
                         </div>
 
                         {/* 右边 */}
@@ -1081,7 +1067,7 @@ class Ctoc extends Component {
                             
                         </div>
                         {/* 右边end */}
-                    </Content>  
+                    </div>  
                 </Layout>
             </div>
         );

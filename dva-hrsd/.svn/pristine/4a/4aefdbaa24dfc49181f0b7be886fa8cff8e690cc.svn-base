@@ -4,8 +4,8 @@
     padding: 0 8px;
     width: 280px;
     margin-left: 3px;
-
-    //不显示滚动条
+    
+    //没有滚动条
     .overflow{
         overflow: inherit;
     }

@@ -1,0 +1,89 @@
+.ctoc_buy_sell{
+    margin-top: 3px;
+    box-sizing: border-box;
+    width: 566px;
+    .form_container{
+        display: flex;
+        justify-content: space-between;
+        -webkit-display: flex;
+        -webkit-justify-content: space-between;
+        
+        background: #252732;
+        .form_item{
+            // width: 50%;
+            padding: 0 19px;
+            flex: 1;
+            &:nth-child(1){
+                border-right: 1px solid #343b4c;
+            }
+            .title{
+                margin-top: 15px;
+                margin-bottom: 9px;
+                font-size: 14px;
+                em{
+                color: #d8dfe6;
+                font-weight: bold;
+                }
+                span{
+                color: #758696;
+                float: right;
+                }
+                i{
+                color: #d8dfe6;
+                }
+            }
+            .input{
+                margin-bottom: 10px;
+                position: relative;
+                .slider{
+                    display: inline-block;
+                    width: 80%;
+                }
+                >span{
+                    display: inline-block;
+                    color: #758696;
+                    width: 20%;
+                }
+                input{
+                    width: 80%;
+                    display: inline-block;
+                    background: #343b4c;
+                    border: 0;
+                    color: #d8dfe6;
+                }
+                em{
+                    color: #d8dfe6;
+                }
+                i{
+                    position: absolute;
+                    right: 10px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    color: #758696;
+                }
+            }
+            .slider_box{
+                margin-bottom: 20px;
+            }
+            .proportion{
+                
+            }
+            .submit{
+                margin-bottom: 11px;
+                input{
+                    width: 100%;
+                    line-height: 32px;
+                    color: #fff;
+                    border:0;
+                    outline:none;
+                }
+                .bg_color1{
+                    background: #00bc9b;
+                }
+                .bg_color2{
+                    background: #ff486a;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,10 @@
+:global{
+    .ctoc{
+        .ant-layout{
+            height: 100%;
+        }
+        .ctoc_right_table_body{
+            height: 280px;
+        }
+    }
+}
