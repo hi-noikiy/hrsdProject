@@ -4,6 +4,7 @@ import { Link } from 'dva/router';
 import { connect } from 'dva';
 import styles from './index.less'
 
+console.log(styles,123)
 //左边列表
 @connect(({ common_header }) => ({
     common_header

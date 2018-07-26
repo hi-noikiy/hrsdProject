@@ -1,4 +1,4 @@
-.head {
+.ctoc_head {
   background-color: #2b2d3b;
   color: #d8dfe6;
   height: 42px;
@@ -7,7 +7,7 @@
   box-shadow: 0 2px 5px 0 rgba(21, 22, 25, 0.3);
   padding: 0 15px;
 }
-.head a {
+.ctoc_head a {
   float: left;
 }
 .head_left {
@@ -36,6 +36,7 @@
 }
 .link_list .list p {
   line-height: 15px;
+  margin: 0;
 }
 .head_right {
   float: right;

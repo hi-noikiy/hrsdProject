@@ -1,0 +1,6 @@
+:global .ctoc .ant-layout {
+  height: 100%;
+}
+:global .ctoc .ctoc_right_table_body {
+  height: 280px;
+}

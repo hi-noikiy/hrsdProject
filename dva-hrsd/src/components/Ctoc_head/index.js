@@ -15,7 +15,7 @@ const { Header } = Layout;
 class Ctoc_head extends Component {
     render() {
         return (
-            <Header className={styles.head} >
+            <Header className={styles.ctoc_head} >
                 <div className={styles.head_left} >
                     <Link className={styles.logo} to="/" >
                         <img src={require("../../assets/logo.gif")} />

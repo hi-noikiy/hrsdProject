@@ -5,14 +5,14 @@ import { connect } from 'dva';
 @connect(({  }) => ({
     
 }))
-class Ctoc extends Component {
+class LoginReg_main extends Component {
     render() {
         return (
-            <div className={styles.ctoc} >
-                Ctoc
+            <div className={styles.loginReg_main} >
+                LoginReg_main
             </div>
         );
     }
 }
 
-export default Ctoc;
+export default LoginReg_main;

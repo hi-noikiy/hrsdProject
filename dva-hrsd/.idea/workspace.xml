@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="b060cd87-a665-4fca-bd46-913ccee70a97" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/utils/dynamicWrapper.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Fb_main/index.js" afterPath="$PROJECT_DIR$/src/components/Fb_main/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/layout/Basic_layout/index.js" afterPath="$PROJECT_DIR$/src/layout/Basic_layout/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/LoginReg_main.js" afterPath="$PROJECT_DIR$/src/models/LoginReg_main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/index_tab.js" afterPath="$PROJECT_DIR$/src/models/index_tab.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/user.js" afterPath="$PROJECT_DIR$/src/models/user.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/router.js" afterPath="$PROJECT_DIR$/src/router.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/request.js" afterPath="$PROJECT_DIR$/src/utils/request.js" />
-    </list>
+    <list default="true" readonly="true" id="b060cd87-a665-4fca-bd46-913ccee70a97" name="默认的" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -237,7 +227,7 @@
       <workItem from="1530535649058" duration="667000" />
       <workItem from="1530621931941" duration="1907000" />
       <workItem from="1530841135809" duration="2171000" />
-      <workItem from="1531213750900" duration="1966000" />
+      <workItem from="1531213750900" duration="2558000" />
     </task>
     <task id="LOCAL-00001" summary="...................">
       <created>1529668813210</created>
@@ -337,14 +327,21 @@
       <option name="project" value="LOCAL" />
       <updated>1531280175478</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="按需加载...................">
+      <created>1531311488065</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1531311488065</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10454000" />
+    <option name="totallyTimeSpent" value="11046000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />

@@ -1,0 +1,107 @@
+.ctoc {
+  height: 100%;
+}
+.ctoc .content {
+  height: 100%;
+  position: relative;
+}
+.ctoc .content .up {
+  color: #ff486a;
+}
+.ctoc .content .down {
+  color: #00bc9b;
+}
+.ctoc .content_left {
+  float: left;
+  width: 100%;
+  padding-right: 566px;
+}
+.ctoc .content_right {
+  background: #2c3141;
+  float: right;
+  font-size: 12px;
+  color: #d8dfe6;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.ctoc .content_right .records {
+  overflow: hidden;
+}
+.ctoc .content_right .records .content_box {
+  background: #252732;
+  padding: 0 8px;
+  width: 280px;
+  margin-left: 3px;
+}
+.ctoc .content_right .records .content_box table {
+  width: 100%;
+}
+.ctoc .content_right .records .content_box table tr {
+  display: flex;
+  justify-content: space-between;
+  -webkit-display: flex;
+  -webkit-justify-content: space-between;
+}
+.ctoc .content_right .records .content_box table th {
+  font-weight: normal;
+  flex: 1;
+  color: #758696;
+}
+.ctoc .content_right .records .content_box table th:nth-child(1) {
+  text-align: left;
+}
+.ctoc .content_right .records .content_box table th:nth-child(2) {
+  text-align: center;
+}
+.ctoc .content_right .records .content_box table th:nth-child(3) {
+  text-align: right;
+}
+.ctoc .content_right .records .content_box table td {
+  flex: 1;
+  cursor: pointer;
+}
+.ctoc .content_right .records .content_box table td:nth-child(1) {
+  text-align: left;
+}
+.ctoc .content_right .records .content_box table td:nth-child(2) {
+  text-align: center;
+}
+.ctoc .content_right .records .content_box table td:nth-child(3) {
+  text-align: right;
+}
+.ctoc .content_right .records .content_box .middle {
+  line-height: 36px;
+  background: #292d39;
+}
+.ctoc .content_right .records .content_box .middle .up {
+  color: #ff486a;
+}
+.ctoc .content_right .records .content_box .middle span {
+  vertical-align: middle;
+}
+.ctoc .content_right .records .content_box .middle em {
+  vertical-align: middle;
+  color: #758696;
+}
+.ctoc .content_right .records .content_box .middle i {
+  vertical-align: middle;
+  margin-top: 3px;
+}
+.ctoc .content_right .records .content_box .middle .price_main {
+  display: inline-block;
+}
+.ctoc .content_right .records .content_box .middle .price_main em {
+  font-size: 16px;
+  font-weight: 700;
+}
+.ctoc .content_right .records .content_box .middle .price_main span {
+  font-size: 14px;
+  display: inline-block;
+}
+.ctoc .content_right .records .records_left {
+  float: left;
+}
+.ctoc .content_right .records .records_right {
+  float: left;
+}

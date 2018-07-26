@@ -1,0 +1,61 @@
+//composes: common_header;
+.header{
+    height: 58px;
+    overflow: hidden;
+    font-size: 16px;
+    line-height: 58px;
+    position: relative;
+    z-index: 1;
+    color: #d8dfe6;
+    background: rgba(0,0,0,0.3);
+    transition: 0.5s;
+    
+    li{
+        float: left;
+        cursor: pointer;
+    }
+    
+    .header_l{
+        float: left;
+        position: relative;
+        
+        img{
+            height: 26px;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+        }
+        ul{
+            padding-left: 142px;
+            margin: 0;
+        }
+        li{
+            margin: 0 20px;
+        }
+    }
+    .header_r{
+        float: right;
+        li{
+            float: left;
+        }
+        span{
+            margin: 0 12px;
+        }
+    }
+}
+
+//透明
+.t_header{
+    composes: header;
+}
+
+//黑色
+.black_header{
+    composes: header;
+    background: #252732;
+}
+
+.aaa{
+    background: red;
+}

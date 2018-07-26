@@ -1,0 +1,137 @@
+.ctoc{
+    height: 100%;
+    .content{
+        height: 100%;
+        position: relative;
+        //颜色
+        .up{
+            color: #ff486a;
+        }
+        .down{
+            color: #00bc9b;
+        }
+    }
+    .content_left{
+        float: left;
+        width: 100%;
+        padding-right: 566px;
+    }
+    .content_right{
+        background: #2c3141;
+        float: right;
+        font-size: 12px;
+        color: #d8dfe6;
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        //交易委托
+        .records{
+            // background: red;
+            overflow: hidden;
+
+            //容器
+            .content_box{
+                background: #252732;
+                padding: 0 8px;
+                width: 280px;
+                margin-left: 3px;
+
+                table{
+                    width: 100%;
+                    tr{
+                        display: flex;
+                        justify-content: space-between;
+                        -webkit-display: flex;
+                        -webkit-justify-content: space-between;
+                    }
+                    th{
+                        font-weight: normal;
+                        flex: 1;
+                        color: #758696;
+                        &:nth-child(1){
+                            text-align: left;
+                        }
+                        &:nth-child(2){
+                            text-align: center;
+                        }
+                        &:nth-child(3){
+                            text-align: right;
+                        }
+                    }
+                    td{
+                        flex: 1;
+                        cursor:pointer;
+                        &:nth-child(1){
+                            text-align: left;
+                        }
+                        &:nth-child(2){
+                            text-align: center;
+                        }
+                        &:nth-child(3){
+                            text-align: right;
+                        }
+                    }
+                }
+    
+                .middle{
+                    line-height: 36px;
+                    background: #292d39;
+                    //颜色
+                    .up{
+                        color: #ff486a;
+                    }
+                    span{
+                        vertical-align: middle;
+                    }
+                    em{
+                        vertical-align: middle;
+                        color: #758696;
+                    }
+                    i{
+                        vertical-align: middle;
+                        margin-top: 3px;
+                    }
+                    .price_main{
+                        display: inline-block;
+                        em{
+                            font-size: 16px;
+                            font-weight: 700;
+                        }
+                        span{
+                            font-size: 14px;
+                            display: inline-block;
+                        }
+                    }
+                }
+            }
+            //左
+            .records_left{
+                
+                float: left;
+                .title{
+
+                }
+            }
+            //右
+            .records_right{
+                float: left;
+            }
+
+
+            .table_head{
+                
+            }
+            
+            
+
+        }
+
+        //买入卖出
+        .buy_sell{
+            
+        }
+        
+        
+    }
+}
